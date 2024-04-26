@@ -1,4 +1,4 @@
-**Fourier series**
+**Fourier series** 
 $$ f(x) = A_0 + \sum_{k = 1}^{\infty} A_k $$
 
 NB. Fourier series are periodic  
