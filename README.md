@@ -1,5 +1,5 @@
-### Fourier series for function approximation
-![image](https://github.com/ChunZhuo/Fourier/assets/118121876/5e430991-fbd6-4359-9f3f-17460b2f69c2)
+**Fourier series**
+$$ f(x) = A_0 + \sum_{k = 1}^{\infty} A_k $$
 
 NB. Fourier series are periodic  
 # Gibbs Phenomena:
