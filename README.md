@@ -1,3 +1,5 @@
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/ebb3d7ea-bedd-4e9d-b410-9b025989c11d)
+
 **Fourier series** 
 $$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(\frac{k\pi x}{L}) + \sum_{k = 1}^{\infty} B_k \cdot\sin(\frac{k\pi x}{L})$$
 $$A_0 = \frac{1}{2L}\cdot\int_{-L}^{L} f(x)\mathrm{d}x$$
