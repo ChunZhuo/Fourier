@@ -8,7 +8,7 @@ L = 2 *np.pi
 dx = 0.0001
 x = np.arange( -L, L,dx )
 n = len(x)
-
+print(f"number of points {n}")
 ### number of repetition
 k_size = 1000
 
