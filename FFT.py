@@ -17,17 +17,11 @@ def hat_function(x, a, b, c):
     return np.piecewise(x, [x < a, (x >= a) & (x <= b), (x > b) & (x <= c), x > c],
                         [0, lambda x: (x - a) / (b - a), lambda x: (c - x) / (c - b), 0])
 y = hat_function(x, -4,0, 4 )
+#############################
 
-print(y.shape)
 
 ##################
 ### Fourier series
-A = []
-B = []
-Cos = []
-Sin = []
-
-
 k = np.expand_dims(np.arange(1,k_size + 1,1),1)
 Cos = np.cos(k * np.pi * x / L) 
 Sin = np.sin(k * np.pi * x / L) 
