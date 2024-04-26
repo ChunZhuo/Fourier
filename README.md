@@ -19,3 +19,4 @@ So keep K the same, if we double n, then the Gibbs Phen. comes back.
 
 **Fourier transform**
 $$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
+$$f(x) = \mathcal{F}^-1$$
