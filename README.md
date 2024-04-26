@@ -11,5 +11,5 @@ Because the plot we made is actually a bunch of points.
 So keep K the same, if we double n, then the Gibbs Phen. comes back.
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/30015f1c-fc9f-4d1c-b5c1-0dcd075b2533)
 
-### Fourier transform
-$$\int_-\infty
+**Fourier transform**
+$$\int_-\infty$$
