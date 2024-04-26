@@ -1,5 +1,5 @@
 **Fourier series** 
-$$f(x) = A_0 + \sum_{k = 1}^{\infty}\cdot\cos(k\pi x) A_k$$
+$$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(frac{k\pi x}{L}) + \sum_{k=1}^{\infty} A_k$$
 
 NB. Fourier series are periodic  
 # Gibbs Phenomena:
