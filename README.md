@@ -30,9 +30,9 @@ _____________________
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
 $$\lim_{\Delta\omega\to\infty}\sum_{k = {-\infty}}^{\infty}\frac{\Delta\omega}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-ik\Delta\omega\xi}\mathrm{d}\xi\mathrm{e}^{ik\Delta\omega {x}}$$
 **Which is:**
-$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega  \tag{3}$$
+$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega  $$
 ___________________
-$$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
+$$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x \tag{3}$$
 
 $$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w   \tag{4}$$
 ___________________
