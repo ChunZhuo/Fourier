@@ -54,4 +54,7 @@ $$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)(\int_{-\infty}^{\infty}g(y)\m
 $$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\int_{-\infty}^{\infty}g(y)\mathrm{e}^{iw(x-y)} \mathrm d y \mathrm d w$$
 $$= \int_{-\infty}^{\infty}f(x-y)g(y)\mathrm d y$$
 ___________
-$$\mathcal{F}(\alpha f(x) \beta g(x)) = \alpha \mathcal{F}(f) + \beta \mathcal{F}(g)$$
+$$\mathcal{F}(\alpha f(x) \beta g(x)) = \alpha \mathcal{F}(f) + \beta \mathcal{F}(g) \tag{7}$$
+__________
+**Parseval's Theorem**
+$$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty}|f(x)|^2\mathrm{d}x$$
