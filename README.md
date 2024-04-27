@@ -43,3 +43,4 @@ $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\i
 **Then:**
 $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
 $$= i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right)$$
+_________________
