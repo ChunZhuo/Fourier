@@ -1,16 +1,16 @@
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/ebb3d7ea-bedd-4e9d-b410-9b025989c11d)
 ____________________
 **Fourier series** 
-$$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(\frac{k\pi x}{L}) + \sum_{k = 1}^{\infty} B_k \cdot\sin(\frac{k\pi x}{L})$$
+$$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(\frac{k\pi x}{L}) + \sum_{k = 1}^{\infty} B_k \cdot\sin(\frac{k\pi x}{L})  \tag{1}$$
 $$A_0 = \frac{1}{2L}\cdot\int_{-L}^{L} f(x)\mathrm{d}x$$
 $$A_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\cos(\frac{k\pi x}{L})\mathrm{d}x$$
-$$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x  \tag(1)$$
+$$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x$$
 NB. Fourier series are periodic  
 ___________________
 **Euler's formula**
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 **include complex number**
-$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}$$
+$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}  \tag{2}$$
 $$C_{k} = \frac{1}{2L}\int_{-L}^{L}f(x)\mathrm{e}^{-\frac{ik{\pi}x}{L}}\mathrm{d}x$$
 **Gibbs Phenomena**:
 For the discrete point of the function, the fourier approximation is oscillating
