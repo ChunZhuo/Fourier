@@ -27,5 +27,6 @@ So keep K the same, if we double n, then the Gibbs Phen. comes back.
 **Fourier transform**
 Approximate a function without periodicity
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
+$$\lim_{\Delta\omega\to\infty}\sum_{k = {-\infty}}^{infty}\int_{-\infty}^\infty  $$
 $$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
 $$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{siwx}\mathrm{d}w$$
