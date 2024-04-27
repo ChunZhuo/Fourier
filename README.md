@@ -39,4 +39,4 @@ ___________________
 **Fourier transform and derivatives**
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x $$
 $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
-**requirement: $$f(x) = 0  \| x \to\infty | x \to \-infty$$**
+**requirement: $$f(x) = 0  ||( x \to\infty | x \to -\infty)$$**
