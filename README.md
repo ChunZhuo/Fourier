@@ -47,3 +47,5 @@ _________________
 **FT and convolution**\
 What is convolution?
 $$f*g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm d \xi$$
+$$\mathcal{F}(f*g) = \mathcal(F)(f)\mathcal(F)(g)$$\
+$$\int_{-\infty}^{\infty}f(x)$$
