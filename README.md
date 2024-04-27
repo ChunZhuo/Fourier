@@ -9,7 +9,7 @@ NB. Fourier series are periodic
 **Eler's formula**
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 **include complex number**
-$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k\mathrm{e}^{\frac{ik{\pi}x}{L}}$$
+$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}$$
 **Gibbs Phenomena**:
 For the discrete point of the function, the fourier approximation is oscillating
 Since we truncate the formula by define the K.
