@@ -10,6 +10,7 @@ NB. Fourier series are periodic
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 **include complex number**
 $$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}$$
+$$C_{k} = \frac{1}{2L}\int_{-L}^{L}f(x)\mathrm{e}^{-\frac{ik{\pi}x}{L}}\mathrm{d}x$$
 **Gibbs Phenomena**:
 For the discrete point of the function, the fourier approximation is oscillating
 Since we truncate the formula by define the K.
