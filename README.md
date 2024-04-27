@@ -44,6 +44,6 @@ $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\i
 $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
 $$= i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right)$$
 _________________
-**FT and convolution**
+**FT and convolution**\
 What is convolution?
 $$f*g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm d \xi$$
