@@ -26,15 +26,15 @@ So keep K the same, if we double n, then the Gibbs Phen. comes back.
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/30015f1c-fc9f-4d1c-b5c1-0dcd075b2533)
 _____________________
 **Fourier transform**
-Approximate a function without periodicity
+ Approximate a function without periodicity
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
 $$\lim_{\Delta\omega\to\infty}\sum_{k = {-\infty}}^{\infty}\frac{\Delta\omega}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-ik\Delta\omega\xi}\mathrm{d}\xi\mathrm{e}^{ik\Delta\omega {x}}$$
 **Which is:**
-$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega$$
+$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega  \tag{3}$$
 ___________________
 $$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
 
-$$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w$$
+$$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w   \tag{4}$$
 ___________________
 **Fourier transform and derivatives**
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x $$
@@ -42,13 +42,13 @@ $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\i
 **require: $$f(x) = 0  ||( x \to\infty | x \to -\infty)$$**
 **Then:**
 $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
-$$= i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right)$$
+$$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right)=i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right) \tag{5}$$
 _________________
 **FT and convolution**\
 What is convolution?
 $$f\cdot g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm{d}\xi$$
 So
-$$\mathcal{F}(f*g) = \mathcal{F}(f)\mathcal{F}(g) = \hat{f}\hat{g}$$
+$$\mathcal{F}(f*g) = \mathcal{F}(f)\mathcal{F}(g) = \hat{f}\hat{g} \tag{6}$$
 $$\mathcal{F}^{-1}({\hat{f}\hat{g}})(x) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\hat{g}(w)\mathrm{e}^{iwx}\mathrm d w$$
 $$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)(\int_{-\infty}^{\infty}g(y)\mathrm{e}^{-iwy}\mathrm d y) \mathrm{e}^{iwx}\mathrm d w$$
 $$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\int_{-\infty}^{\infty}g(y)\mathrm{e}^{iw(x-y)} \mathrm d y \mathrm d w$$
