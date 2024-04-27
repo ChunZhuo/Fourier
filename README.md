@@ -1,11 +1,12 @@
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/ebb3d7ea-bedd-4e9d-b410-9b025989c11d)
-
+____________________
 **Fourier series** 
 $$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(\frac{k\pi x}{L}) + \sum_{k = 1}^{\infty} B_k \cdot\sin(\frac{k\pi x}{L})$$
 $$A_0 = \frac{1}{2L}\cdot\int_{-L}^{L} f(x)\mathrm{d}x$$
 $$A_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\cos(\frac{k\pi x}{L})\mathrm{d}x$$
 $$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x$$
 NB. Fourier series are periodic  
+___________________
 **Eler's formula**
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 **include complex number**
@@ -23,7 +24,7 @@ Because the plot we made is actually a bunch of points.
 So keep K the same, if we double n, then the Gibbs Phen. comes back.
 
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/30015f1c-fc9f-4d1c-b5c1-0dcd075b2533)
-
+_____________________
 **Fourier transform**
 Approximate a function without periodicity
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
