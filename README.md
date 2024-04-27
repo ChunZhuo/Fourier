@@ -45,8 +45,8 @@ $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right
 $$= i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right)$$
 _________________
 **FT and convolution**\
-What is convolution?\
-$$f*g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm d \xi$$
+What is convolution?
+$$f\cdot g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm{d}\xi$$
 $$\mathcal{F}(f*g) = \mathcal(F)(f)\mathcal(F)(g)$$
 
 $$\int_{-\infty}^{\infty}f(x)$$
