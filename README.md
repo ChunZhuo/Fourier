@@ -57,4 +57,4 @@ ___________
 $$\mathcal{F}(\alpha f(x) \beta g(x)) = \alpha \mathcal{F}(f) + \beta \mathcal{F}(g) \tag{7}$$
 __________
 **Parseval's Theorem**
-$$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty}|f(x)|^2\mathrm{d}x$$
+$$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty}|f(x)|^2\mathrm{d}x \tag{8}$$
