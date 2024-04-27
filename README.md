@@ -4,7 +4,7 @@ ____________________
 $$f(x) = A_0 + \sum_{k = 1}^{\infty}A_k\cdot\cos(\frac{k\pi x}{L}) + \sum_{k = 1}^{\infty} B_k \cdot\sin(\frac{k\pi x}{L})$$
 $$A_0 = \frac{1}{2L}\cdot\int_{-L}^{L} f(x)\mathrm{d}x$$
 $$A_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\cos(\frac{k\pi x}{L})\mathrm{d}x$$
-$$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x$$
+$$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x  (1)$$
 NB. Fourier series are periodic  
 ___________________
 **Euler's formula**
