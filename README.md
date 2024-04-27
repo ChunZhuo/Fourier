@@ -6,8 +6,10 @@ $$A_0 = \frac{1}{2L}\cdot\int_{-L}^{L} f(x)\mathrm{d}x$$
 $$A_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\cos(\frac{k\pi x}{L})\mathrm{d}x$$
 $$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x$$
 NB. Fourier series are periodic  
-**Euler's formula**
+**Eler's formula**
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
+**include complex number**
+$$f(x) = \sum_$$
 **Gibbs Phenomena**:
 For the discrete point of the function, the fourier approximation is oscillating
 Since we truncate the formula by define the K.
