@@ -37,4 +37,4 @@ $$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\m
 $$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w$$
 ___________________
 **Fourier transform and derivatives**
-$$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x =\lbrack f(x) mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty}$$
+$$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x =\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty}$$
