@@ -7,7 +7,7 @@ $$A_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\cos(\frac{k\pi x}{L})\mathrm{d}x$$
 $$B_n = \frac{1}{L}\cdot\int_{-L}^{L} f(x)\sin(\frac{k\pi x}{L})\mathrm{d}x$$
 NB. Fourier series are periodic  
 ___________________
-**Eler's formula**
+**Euler's formula**
 $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 **include complex number**
 $$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}$$
