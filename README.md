@@ -70,3 +70,4 @@ __________
 **Discrete Fourier Transform**
 $$\hat{f_k} = \sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{\frac{-i2\pi jk}{n}} $$
 $$f_{k} = (\sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{\frac{i2\pi jk}{n}})\frac{1}{n}$$
+$$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
