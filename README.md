@@ -68,3 +68,6 @@ $$U(x,t) = \mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})*U(x,0)$$
 $$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
 __________
 **Discrete Fourier Transform**
+\begin{cases}
+
+\end{case}
