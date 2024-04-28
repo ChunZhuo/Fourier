@@ -73,3 +73,5 @@ $$\begin{bmatrix}
 f_{k} = (\sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{\frac{i2\pi jk}{n}})\frac{1}{n}
 \end{bmatrix}$$
 $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
+——————————
+**Fast Fourier Transform**
