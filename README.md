@@ -58,10 +58,13 @@ $$\mathcal{F}(\alpha f(x) \beta g(x)) = \alpha \mathcal{F}(f) + \beta \mathcal{F
 __________
 **Parseval's Theorem**
 $$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty}|f(x)|^2\mathrm{d}x \tag{8}$$
-———FT for PDE (an example)———
+___________
+**FT for PDE (an example)**
 $$U_{t} = \alpha ^ {2} U_{xx}\tag{heat/diffusion equation}$$ 
 FT：
 $$\frac{\mathrm{d}\hat{U}}{\mathrm{d} t} = -w^{2}\alpha^{2}\hat{U}\tag{ODE}$$
 Then: $$\hat{U}(w,t) = \mathrm{e}^{-w^2\alpha^2t}\hat{U}(w,0)$$
 $$U(x,t) = \mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})*U(x,0)$$
 $$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
+__________
+**Discrete Fourier Transform**
