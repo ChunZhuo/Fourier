@@ -68,7 +68,8 @@ $$U(x,t) = \mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})*U(x,0)$$
 $$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
 __________
 **Discrete Fourier Transform**
-$$\left\{\begin{cases}
+$$\left\{
+\begin{array}
 \hat{f} = \sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{\frac{-i2\pi jk}{n}}   \\
 f_{k} = (\sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{\frac{i2\pi jk}{n}})\frac{1}{n}
-\end{case}\right$$
+\end{array}\right$$
