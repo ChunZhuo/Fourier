@@ -79,7 +79,15 @@ $$\begin{bmatrix} \hat{f_{1}}
 \\
 \vdots
 \\
-\hat{f_{n}}\end{bmatrix} = \begin{bmatrix}\end{bmatrix}$$
+\hat{f_{n}}\end{bmatrix} = \begin{bmatrix}1 & 1 & 1 & \cdots & 1
+\\
+1 & w_{n} & w_{n}^{2} & \cdots & w_{n}^{n-1}
+\\
+1 & w_{n}^{2} & w_{n}^{4} & \cdots & w_{n}^{2(n-1)}
+\\
+\vdots & \vdots \ddots & \vdots 
+\\
+1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & w_{n}^{(n-1)^2} \end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
 $$\mathcal{O}(nlog{n})$$
