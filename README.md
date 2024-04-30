@@ -71,6 +71,8 @@ __________
 $$\hat{f_k} = \sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{wjk}\\
 f_{k} = (\sum_{j = 0}^{n-1} \hat{f_{j}}\mathrm{e}^{-wjk})\frac{1}{n}$$
 $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
+
+
 $$\begin{bmatrix} \frac{5}{6} & \frac{4}{3}\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
