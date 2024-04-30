@@ -75,7 +75,10 @@ $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
 
 $$\begin{bmatrix} \hat{f_{1}} 
 \\
-\hat{f_{2}}\end{bmatrix}$$
+\hat{f_{2}}
+\\
+\vdots
+\hat{f_{n}}\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
 $$\mathcal{O}(nlog{n})$$
