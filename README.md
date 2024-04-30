@@ -79,7 +79,7 @@ $$\begin{bmatrix} \hat{f_{1}}
 \\
 \vdots
 \\
-\hat{f_{n}}\end{bmatrix}$$
+\hat{f_{n}}\end{bmatrix} = \begin{bmatrix}\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
 $$\mathcal{O}(nlog{n})$$
