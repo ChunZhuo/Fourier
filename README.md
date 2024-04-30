@@ -73,9 +73,9 @@ f_{k} = (\sum_{j = 0}^{n-1} \hat{f_{j}}\mathrm{e}^{-wjk})\frac{1}{n}$$
 $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
 
 
-$$\begin{bmatrix} \hat{f_{1}} 
+$$\begin{bmatrix} \hat{f_{0}} 
 \\
-\hat{f_{2}}
+\hat{f_{1}}
 \\
 \vdots
 \\
@@ -87,7 +87,14 @@ $$\begin{bmatrix} \hat{f_{1}}
 \\
 \vdots & \vdots & \vdots & \ddots & \vdots 
 \\
-1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & \cdots& w_{n}^{(n-1)^2} \end{bmatrix}$$
+1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & \cdots& w_{n}^{(n-1)^2} \end{bmatrix} 
+\begin{bmatrix} f_{0}
+\\
+\hat{f_{1}}
+\\
+\vdots
+\hat{f_{n}}
+\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
 $$\mathcal{O}(nlog{n})$$
