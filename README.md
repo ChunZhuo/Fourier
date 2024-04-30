@@ -93,6 +93,7 @@ $$\begin{bmatrix} \hat{f_{0}}
 \hat{f_{1}}
 \\
 \vdots
+\\
 \hat{f_{n}}
 \end{bmatrix}$$
 ___________
