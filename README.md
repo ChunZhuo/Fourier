@@ -78,6 +78,7 @@ $$\begin{bmatrix} \hat{f_{1}}
 \hat{f_{2}}
 \\
 \vdots
+\\
 \hat{f_{n}}\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
