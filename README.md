@@ -74,7 +74,7 @@ $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
 
 
 $$\begin{bmatrix} \hat{f_{1}} 
-\\[0.3em] 
+\\
 \hat{f_{2}}\end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
