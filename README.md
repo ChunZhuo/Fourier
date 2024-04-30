@@ -69,7 +69,7 @@ $$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
 __________
 **Discrete Fourier Transform**
 $$\hat{f_k} = \sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{wjk}\\
-f_{k} = (\sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{-wjk})\frac{1}{n}$$
+f_{k} = (\sum_{j = 0}^{n-1} \hat{f_{j}}\mathrm{e}^{-wjk})\frac{1}{n}$$
 $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
 ___________
 **Fast Fourier Transform**
