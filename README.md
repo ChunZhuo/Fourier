@@ -85,9 +85,9 @@ $$\begin{bmatrix} \hat{f_{1}}
 \\
 1 & w_{n}^{2} & w_{n}^{4} & \cdots & w_{n}^{2(n-1)}
 \\
-\vdots & \vdots \ddots & \vdots 
+\vdots & \vdots & \vdots & \ddots & \vdots 
 \\
-1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & w_{n}^{(n-1)^2} \end{bmatrix}$$
+1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & \cdots& w_{n}^{(n-1)^2} \end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
 $$\mathcal{O}(nlog{n})$$
