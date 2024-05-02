@@ -20,4 +20,7 @@ $\Lambda = V^{-1} M V$  $\Lambda$ is diagonal
 A lemma: A, B has simple eigenvalues
 A and B are simultaneously diagonalizable $iff$ they commute
 
+# So $S_{k}$ only paly the role of the matrix with simple eigenvalues
+
+
 
