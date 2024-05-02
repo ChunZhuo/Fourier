@@ -24,8 +24,7 @@ A and B are simultaneously diagonalizable $iff$ they commute
 
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/b0607d9a-e98b-44b0-8b31-d4c59ecfa9f5)
 
-![image](https://github.com/ChunZhuo/Fourier/assets/118121876/b0607d9a-e98b-44b0-8b31-d4c59ecfa9f5)
-
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/09ff4284-ce88-435d-9982-02450acd371c)
 # So $S_{k}$ only paly the role of the matrix with simple eigenvalues
 
 
