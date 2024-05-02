@@ -8,3 +8,6 @@ https://arxiv.org/pdf/1805.05533
 Each row is obtained by a circular shift from the previous row
 
 The eigenvalues of a circulant matrix is its DFT for each value of the row
+
+**simultaneously diagnalizable**
+****
