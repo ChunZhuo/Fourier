@@ -27,5 +27,12 @@ A and B are simultaneously diagonalizable $iff$ they commute
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/09ff4284-ce88-435d-9982-02450acd371c)
 # So $S_{k}$ only paly the role of the matrix with simple eigenvalues
 
+**Modular Arithetic**
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/16aeb6b0-8d66-4b9f-b367-b5b9b8318168)
+
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/1dba3dab-d1fe-4126-a693-1dc34ab61b49)
+There is an isomorphism between (a,b,c) and d
+
+
 
 
