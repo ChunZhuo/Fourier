@@ -9,7 +9,8 @@ Each row is obtained by a circular shift from the previous row
 It is shift invariant:
 $$C(S_{k}x) = S_{k}C(x)$$
 So you can say that  $C$ and $S_{k}$ are mutually commuting
+
 The eigenvalues of a circulant matrix is its DFT for each value of the row
 
 **simultaneously diagnalizable**
-****
+$\Lambda = V^{-1} M V$
