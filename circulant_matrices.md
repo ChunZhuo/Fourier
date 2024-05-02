@@ -33,6 +33,12 @@ A and B are simultaneously diagonalizable $iff$ they commute
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/1dba3dab-d1fe-4126-a693-1dc34ab61b49)
 There is an isomorphism between (a,b,c) and d
 
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/6ea8a414-925c-4f68-8d19-0a5321635040)
+
+left shift matrix is the transpose of the right shift matrix
+
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/950840b9-c0f0-4cb4-a406-e42acf737df2)
+
 
 
 
