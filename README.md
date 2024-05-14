@@ -97,5 +97,7 @@ $$\begin{bmatrix} \hat{f_{0}}
 \hat{f_{n}}
 \end{bmatrix}$$
 ___________
-**Fast Fourier Transform**
+**Fast Fourier Transform **
 $$\mathcal{O}(nlog{n})$$
+————————————
+**Laplace transform**
