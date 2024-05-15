@@ -102,7 +102,8 @@ $$\mathcal{O}(nlog{n})$$
 ___________
 **Laplace transform**
 $$\mathrm{F}(t) = f(t)\mathrm{e}^{-\gamma t}\mathrm{H}(t)$$
-$$\mathrm{H}(t) = \begin{cases}
-0 & \quad t<0 \\
-f(t)\mathrm{e}^{-\gamma t} & \quad t >= 0
+$$\mathrm{H}(t) = 
+\begin{cases}
+0 & \quad \text{t<0} \\
+f(t)\mathrm{e}^{-\gamma t} & \quad \text{t >= 0}
 \end{cases}$$
