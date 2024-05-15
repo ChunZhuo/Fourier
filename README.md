@@ -103,4 +103,7 @@ ___________
 **Laplace transform**
 $$\mathrm{F}(t) = f(t)\mathrm{e}^{-\gamma t}\mathrm{H}(t)$$
 $$\mathrm{H}(t) = 
+\begin{cases}
+0 & \quad \text{t<0} 
+\end{cases}
 $$
