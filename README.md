@@ -101,3 +101,4 @@ ___________
 $$\mathcal{O}(nlog{n})$$
 ___________
 **Laplace transform**
+$$\mathrm{F}(t) = f(t)\mathrm{e}^{-\gamma t}\mathrm{H}(t)$$
