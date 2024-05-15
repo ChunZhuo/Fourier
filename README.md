@@ -103,8 +103,11 @@ ___________
 **Laplace transform**
 $$\mathrm{F}(t) = f(t)\mathrm{e}^{-\gamma t}\mathrm{H}(t)$$
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/c3b4b187-272a-4b83-afca-234cfb30ecc1)
+
 Some functions are badly represented using fourier transform, e.g. $y = e^{\lambda t}$
 ![image](https://github.com/ChunZhuo/Fourier/assets/118121876/82d5963c-2e26-4aa1-9a3a-4b0ed705e199)
+
+![image](https://github.com/ChunZhuo/Fourier/assets/118121876/1220cece-67b2-4414-87c9-8b8f0aaffaa9)
 
 
 
