@@ -104,6 +104,4 @@ ___________
 $$\mathrm{F}(t) = f(t)\mathrm{e}^{-\gamma t}\mathrm{H}(t)$$
 $$\mathrm{H}(t) = 
 \begin{cases}
-
-\end{cases}
-$$
+\end{cases}$$
