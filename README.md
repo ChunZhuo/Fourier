@@ -39,7 +39,7 @@ ___________________
 **Fourier transform and derivatives**
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x $$
 $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
-**require: （which is a restriction for fourier transform）$$f(x) = 0  ||( x \to\infty | x \to -\infty)$$**
+**require: （which is a restriction for fourier transform）$$f(x) = 0$$**
 **Then:**
 $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right)=i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right) \tag{5}$$
