@@ -37,43 +37,79 @@ So keep K the same, if we double n, then the Gibbs Phen. comes back.
 _____________________
 **Fourier transform**
  Approximate a function without periodicity
+ 
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
+
 $$\lim_{\Delta\omega\to\infty}\sum_{k = {-\infty}}^{\infty}\frac{\Delta\omega}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-ik\Delta\omega\xi}\mathrm{d}\xi\mathrm{e}^{ik\Delta\omega {x}}$$
+
 **Which is:**
+
 $$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega$$
+
 ___________________
+
 $$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
 
 $$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w$$
+
 ___________________
+
 **Fourier transform and derivatives**
+
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x $$
+
 $$=\lbrack f(x) \mathrm{e}^{-iwx}\rbrack_{-\infty}^{\infty} - \int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
-**require: （which is a restriction for fourier transform)** $$f(x) = 0 ||( x \to\infty | x \to -\infty)$$
+
+**require: （which is a restriction for fourier transform)**  
+
+$$f(x) = 0 ||( x \to\infty | x \to -\infty)$$
+
 **Then:**
+
 $$={i\omega}\int_{-\infty}^{\infty} f(x) \left({-i\omega\mathrm{e}^{-iwx}}\right)\mathrm{d}x$$
-$$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right)=i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right) \tag{5}$$
+
+$$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right)=i\omega\mathcal{F}\left({\frac{\mathrm d f}{\mathrm d x}}\right)$$
+
 _________________
+
 **FT and convolution**\
+
 What is convolution?
+
 $$f\cdot g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm{d}\xi$$
+
 So
+
 $$\mathcal{F}(f*g) = \mathcal{F}(f)\mathcal{F}(g) = \hat{f}\hat{g} \tag{6}$$
+
 $$\mathcal{F}^{-1}({\hat{f}\hat{g}})(x) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\hat{g}(w)\mathrm{e}^{iwx}\mathrm d w$$
-$$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)(\int_{-\infty}^{\infty}g(y)\mathrm{e}^{-iwy}\mathrm d y) \mathrm{e}^{iwx}\mathrm d w$$
+
+$$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)(\int_{-\infty}^{\infty}g(y)\mathrm{e}^{-iwy}\mathrm d y)\mathrm{e}^{iwx}\mathrm d w$$
+
 $$=\frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\int_{-\infty}^{\infty}g(y)\mathrm{e}^{iw(x-y)} \mathrm d y \mathrm d w$$
+
 $$= \int_{-\infty}^{\infty}f(x-y)g(y)\mathrm d y$$
+
 ___________
+
 $$\mathcal{F}(\alpha f(x) \beta g(x)) = \alpha \mathcal{F}(f) + \beta \mathcal{F}(g)$$
+
 __________
 **Parseval's Theorem**
+
 $$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty}|f(x)|^2\mathrm{d}x$$
+
 ___________
 **FT for PDE (an example)**
+
 $$U_{t} = \alpha ^ {2} U_{xx}\tag{heat/diffusion equation}$$ 
+
 FT：
 $$\frac{\mathrm{d}\hat{U}}{\mathrm{d} t} = -w^{2}\alpha^{2}\hat{U}\tag{ODE}$$
-Then: $$\hat{U}(w,t) = \mathrm{e}^{-w^2\alpha^2t}\hat{U}(w,0)$$
+
+Then: 
+$$\hat{U}(w,t) = \mathrm{e}^{-w^2\alpha^2t}\hat{U}(w,0)$$
+
 $$U(x,t) = \mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})*U(x,0)$$
 $$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
 __________
