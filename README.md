@@ -18,7 +18,7 @@ $$\mathrm{e}^{ix} = \cos(x) + isin(x)$$
 
 **include complex number**
 
-$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}  \tag{2}$$
+$$f(x) = \sum_{k = {-\infty}}^{\infty}C_k \mathrm{e}^{\frac{ik{\pi}x}{L}}$$
 
 $$C_{k} = \frac{1}{2L}\int_{-L}^{L}f(x)\mathrm{e}^{-\frac{ik{\pi}x}{L}}\mathrm{d}x$$
 
@@ -40,11 +40,11 @@ _____________________
 $$\omega_{k} = \frac{k\pi}{L} = k\Delta\omega$$
 $$\lim_{\Delta\omega\to\infty}\sum_{k = {-\infty}}^{\infty}\frac{\Delta\omega}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-ik\Delta\omega\xi}\mathrm{d}\xi\mathrm{e}^{ik\Delta\omega {x}}$$
 **Which is:**
-$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega  $$
+$$\int_{-\infty}^{\infty}\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\xi)\mathrm{e}^{-i\omega\xi}\mathrm{d}\xi\mathrm{e}^{i\omega{x}}\mathrm{d}\omega$$
 ___________________
-$$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x \tag{3}$$
+$$\hat{f}(w) = \mathcal{F}(f(x)) = \int_{-\infty}^\infty f(x)\mathrm{e}^{-iwx}\mathrm{d}x$$
 
-$$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w   \tag{4}$$
+$$f(x) = \mathcal{F}^{-1}(\hat{f}(w)) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\mathrm{e}^{iwx}\mathrm{d}w$$
 ___________________
 **Fourier transform and derivatives**
 $$\mathcal{F}\left({\frac{\mathrm d}{\mathrm d x}}f(x)\right) = \int_{-\infty}^{\infty}\frac{\mathrm{d}f}{\mathrm{d}x}\mathrm{e}^{-iwx}\mathrm{d}x $$
