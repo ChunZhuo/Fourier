@@ -149,7 +149,7 @@ f_{1}
 \\
 \vdots
 \\
-{f_{n}
+f_{n}
 \end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
