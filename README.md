@@ -145,11 +145,11 @@ $$\begin{bmatrix} \hat{f_{0}}
 1 & w_{n}^{n-1} & w_{n}^{2(n-1)} & \cdots& w_{n}^{(n-1)^2} \end{bmatrix} 
 \begin{bmatrix} f_{0}
 \\
-\hat{f_{1}}
+f_{1}
 \\
 \vdots
 \\
-\hat{f_{n}}
+{f_{n}
 \end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
