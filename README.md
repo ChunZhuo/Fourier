@@ -80,7 +80,7 @@ $$f\cdot g = \int_{-\infty}^{\infty}f(x-\xi)g(\xi)\mathrm{d}\xi$$
 
 So
 
-$$\mathcal{F}(f*g) = \mathcal{F}(f)\mathcal{F}(g) = \hat{f}\hat{g} \tag{6}$$
+$$\mathcal{F}(f*g) = \mathcal{F}(f)\mathcal{F}(g) = \hat{f}\hat{g}$$
 
 $$\mathcal{F}^{-1}({\hat{f}\hat{g}})(x) = \frac{1}{2\pi}\int_{-\infty}^{\infty}\hat{f}(w)\hat{g}(w)\mathrm{e}^{iwx}\mathrm d w$$
 
@@ -101,21 +101,25 @@ $$\int_{-\infty}^{\infty} |\hat{f}(w)|^2\mathrm{d}w =2\pi \int_{-\infty}^{\infty
 
 ___________
 **FT for PDE (an example)**
-
-$$U_{t} = \alpha ^ {2} U_{xx}\tag{heat/diffusion equation}$$ 
+heat_equation
+$$U_{t} = \alpha ^ {2} U_{xx}$$ 
 
 FT：
-$$\frac{\mathrm{d}\hat{U}}{\mathrm{d} t} = -w^{2}\alpha^{2}\hat{U}\tag{ODE}$$
+ODE
+$$\frac{\mathrm{d}\hat{U}}{\mathrm{d} t} = -w^{2}\alpha^{2}\hat{U}$$
 
 Then: 
 $$\hat{U}(w,t) = \mathrm{e}^{-w^2\alpha^2t}\hat{U}(w,0)$$
 
 $$U(x,t) = \mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})*U(x,0)$$
-$$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})\tag{Gaussian}$$
+Gaussian
+
+$$\mathcal{F}^{-1}(\mathrm{e}^{-w^2\alpha^2t})$$
 __________
 **Discrete Fourier Transform**
 $$\hat{f_k} = \sum_{j = 0}^{n-1} f_{j}\mathrm{e}^{wjk}\\
 f_{k} = (\sum_{j = 0}^{n-1} \hat{f_{j}}\mathrm{e}^{-wjk})\frac{1}{n}$$
+
 $$\mathcal{w}=\mathrm{e}^{\frac{-2\pi i}{n}}$$
 
 
@@ -144,6 +148,7 @@ $$\begin{bmatrix} \hat{f_{0}}
 \end{bmatrix}$$
 ___________
 **Fast Fourier Transform**
+
 $$\mathcal{O}(nlog{n})$$
 ___________
 **Laplace transform**
